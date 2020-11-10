@@ -1,5 +1,6 @@
 import {useRouter} from 'next/router';
 import Layout from '../../Components/Layout/Layout';
+import Title from '../../Components/Title/Title';
 
 export default function PostsID(){
   const router = useRouter();
@@ -7,7 +8,7 @@ export default function PostsID(){
  const {id} = router.query;
   return(
     <Layout>
-      <h1>Posts Details</h1>
+      <Title>Posts Details</Title>
       <p>Posts Id {id}</p>
     </Layout>
   )

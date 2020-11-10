@@ -1,11 +1,23 @@
 import Layout from "../Components/Layout/Layout";
 import Navbar from "../Components/Navbar/Navbar";
+import Title from "../Components/Title/Title";
 
 export default function Home() {
   return (
     <Layout>
-      <h1>Home Page</h1>
+      <Title>Home Page</Title>
       <p>Practicando con Next js</p>
+      <style jsx>
+        {`
+        p{
+          color: darkgray;
+          cursor: pointer;
+        }
+        p:hover{
+          color: darkred;
+        }
+        `}
+      </style>
     </Layout>
   );
 }
