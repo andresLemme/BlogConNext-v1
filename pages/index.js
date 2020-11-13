@@ -1,5 +1,4 @@
 import Layout from "../Components/Layout/Layout";
-import Navbar from "../Components/Navbar/Navbar";
 import Title from "../Components/Title/Title";
 
 export default function Home() {
