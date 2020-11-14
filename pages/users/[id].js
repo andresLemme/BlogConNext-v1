@@ -7,7 +7,7 @@ export default function UsersID({ user }) {
   console.log(router);
   // const {id} = router.query;
 
-  if (router.isfallback) {
+  if (router.isFallback) {
     return <div>CARGANDO...</div>;
   }
 
