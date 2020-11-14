@@ -1,6 +1,5 @@
-import Link from "next/Link";
+import Link from "next/link";
 import Layout from "../../Components/Layout/Layout";
-import Navbar from "../../Components/Navbar/Navbar";
 
 export default function Users({ users }) {
   return (
